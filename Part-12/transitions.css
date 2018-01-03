@@ -1,0 +1,61 @@
+.box {
+	height: 50px;
+	width: 50px;
+	background-color: rgb(240,52,52);
+	position: absolute;
+	top: calc(50% - 25px);
+	left: calc(50%);
+	/* transition-property: transform;
+	transition-duration: 2s;
+	transition-delay: 0.25s;
+	transition-timing-function: ease-in; */
+	transition: all 3s 0s ease-in;
+	opacity: 0;
+}
+
+.slide-right {
+	transform: translateX(300px);
+}
+
+.slide-left {
+	transform: translateX(-300px);
+}
+
+.slide-up {
+	transform: translateY(-300px);
+}
+
+.slide-down {
+	transform: translateY(300px);
+}
+
+.scale-up {
+	transform: scale(3);
+}
+
+.scale-down {
+	transform: scale(0.25);
+}
+
+.rotate {
+	transform: rotate(360deg);
+}
+
+.opaqueify {
+	opacity: 1;
+}
+
+button {
+	font-size: 18px;
+	padding: 15px 25px;
+	border: 1px solid rgb(41, 128, 185);
+	color: rgb(41, 128, 185);
+	transition:  all 0.5s;
+}
+
+button:hover {
+	color: white;
+	background-color: rgb(41, 128, 185);
+	border-color: rgb(41, 128, 185);
+	cursor: pointer;
+}

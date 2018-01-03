@@ -1,0 +1,249 @@
+/* ------------------------- */
+/* Variables */
+/* ------------------------- */
+
+:root {
+	--main-accent:#fc575e;
+	--light-accent-color: #f0f1f5;
+	--dark-accent-color: #333;
+	--main-grey: #555;
+}
+
+/* ------------------------- */
+/* Resets */
+/* ------------------------- */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+/* ------------------------- */
+/* Global */
+/* ------------------------- */
+body {
+	background-color: var(--light-accent-color);
+}
+
+a {
+	text-decoration: none
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}
+
+.header {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: var(--main-grey);
+}
+
+.full-screen-opaque {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.85);
+	z-index: 5;
+}
+
+/* ------------------------- */
+/* Navbar */
+/* ------------------------- */
+#nav {
+	height: 60px;
+	background: var(--dark-accent-color);
+	margin-bottom: 25px;
+}
+
+#navContainer {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-header {
+	color: var(--light-accent-color);
+	font-size: 28px;
+	transition: all 0.25s;
+}
+
+.nav-header:hover {
+	color: var(--main-accent);
+	letter-spacing: 10px;
+	transform: scale(1.05);
+}
+
+#addBtn {
+	font-size: 24px;
+	color: var(--light-accent-color);
+	transition: transform 0.25s 0s;
+}
+
+#addBtn:hover {
+	transform: scale(1.2);
+}
+
+@media only screen and (max-width: 786px) {
+	#nav {
+		height: 100px;
+	}
+
+	#navContainer {
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+/* ------------------------- */
+/* Panel */
+/* ------------------------- */
+.panel {
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px var(--main-grey);
+	padding: 40px 20px 20px 20px;
+	margin: 10px;
+}
+
+
+
+/* ------------------------- */
+/* Form */
+/* ------------------------- */
+.form-control {
+	width: 100%;
+	margin: 8px 0;
+	height: 34px;
+	border-radius: 5px;
+	border: 1px solid var(--main-grey);
+	padding: 5px 15px;
+	font-size: 14px;
+	color: var(--main-grey);
+}
+
+#addLinkContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#addLinkContainer.hidden {
+	display: none;
+}
+
+#addLinkPanel {
+	animation: slide-down 1s 0s ease-in;
+}
+
+/* ------------------------- */
+/* Buttons */
+/* ------------------------- */
+input[type='submit'], button {
+	padding: 8px 22px;
+	border-radius: 5px;
+	border: 1px solid var(--main-accent);
+	background-color: var(--main-accent);
+	color: var(--light-accent-color);
+	font-size: 16px;
+	transition: all 0.25s;
+}
+
+input[type='submit']:hover, button:hover {
+	cursor: pointer;
+	color: var(--main-accent);
+	background: white;
+}
+
+.btn-sm {
+	font-size: 10px;
+	padding: 5px 10px;
+}
+
+/* ------------------------- */
+/* Link */
+/* ------------------------- */
+
+.link {
+	position: relative;
+}
+
+#linksList {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-item {
+	flex-basis: 100%;
+}
+
+.link-options {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.link-date {
+	font-size: 14px;
+	font-style: italic;
+}
+
+#addedCategories {
+	margin-bottom: 15px;
+}
+
+.category {
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px 2px;
+	border: 1px solid var(--main-accent);
+	border-radius: 5px;
+	font-size: 10px;
+	background-color: var(--main-accent);
+	color: var(--light-accent-color);
+}
+
+@media only screen and (min-width: 786px){
+	.flex-item {
+		flex-basis: 50%;
+	}
+}
+
+@media only screen and (min-width: 1280px){
+	.flex-item {
+		flex-basis: 33%;
+	}
+}
+
+/* ------------------------- */
+/* Animations */
+/* ------------------------- */
+@keyframes slide-down {
+	0% {
+		transform: translateY(-1000px); 
+	}
+	90%{
+		transform: translateY(25px);
+	}
+	95%{
+		transform: translateY(-10px);
+	}
+	100% {
+	transform: translateY(0px);
+	}
+}
