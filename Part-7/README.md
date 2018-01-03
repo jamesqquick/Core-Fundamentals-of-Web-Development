@@ -1,10 +1,8 @@
 ## 7. Adding and Removing Classes in Javascript
 
-
-![screen](screen.png)
-
 [Go to the video]()
 
+![screen](screen.png)
 
 
 In this videos, we will add the functionality to show and hide the add link form.  We will accomplish this by adding/removing the 'hidden' class to/from the form.  This video will help to reinfornce topics from the previous two videos: working with DOM elements, event listeners, defining variables with ES6 Let and Const, and ES6 Arrow Functions.  Additionally, we will learn how to add and remove classes from a DOM element in Javascript.

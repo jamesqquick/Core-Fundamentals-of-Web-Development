@@ -1,5 +1,8 @@
 ## 9. Generating Dynamic HTML with Es6 Template Literals 
 
+![screen](screen.png)
+
+
 [Go to the video]()
 
 

@@ -1,5 +1,8 @@
 ## 12. Applying Transitions
 
+![screen](screen.png)
+
+
 [Go to the video]()
 
 
