@@ -1,5 +1,6 @@
 # Core-Fundamentals-of-Web-Development
 
+![](./screenshots/cover.png)
 
 Welcome to Core Fundamentals of Web Development!  In this course, we will use pure HTML, CSS, and Javascript (no libraries or frameworks!!) to create a Link Saver application.  The hope is that by foregoing all of the libraries and frameworks out there, we will increase our core knowledge and understanding of how different aspects of web development will work.  This course is designed for Beginner to Intermediate Web Developers who are looking to learn new concepts or reinforce ones they've already been exposed to.  The content is initially scheduled for 15 videos, but I am hoping to follow up with some bonus material based on your feedback!  If you would like to see any additional topics covered, please comment and let me know.
 
