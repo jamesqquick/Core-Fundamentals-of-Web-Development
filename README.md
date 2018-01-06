@@ -6,6 +6,8 @@
 
 ## Intro
 
+[Go to the Video](https://youtu.be/EqWNTVu344o)
+
 Welcome to Core Fundamentals of Web Development!  In this course, we will use pure HTML, CSS, and Javascript (no libraries or frameworks!!) to create a Link Saver application.  The hope is that by foregoing all of the libraries and frameworks out there, we will increase our core knowledge and understanding of how different aspects of web development will work.  This course is designed for Beginner to Intermediate Web Developers who are looking to learn new concepts or reinforce ones they've already been exposed to.  The content is initially scheduled for 15 videos, but I am hoping to follow up with some bonus material based on your feedback!  If you would like to see any additional topics covered, let me know on twitter, @jamesqquick
 
 
@@ -252,7 +254,7 @@ In this video, we will get introduced to CSS Animations.  We will create simple 
 
 ## 15. Cleanup
 
-[Go to the video]()
+[Go to the video](https://youtu.be/K3IAms1AwhU)
 
 [Go to the Source Code](./Part-15)
 
@@ -267,7 +269,9 @@ In this video, we will clean up our application a bit by correctly displaying th
 
 # Course Wrap Up
 
-[Go to the video]()
+[Go to the video](https://youtu.be/z96uKc5q5lo)
+
+In this video, we will reflect on everything that we've covered, which is a lot!  We've taken at least an intermediate dive in HTML, CSS, and Javascript.  We've focused on the core aspects of Web Development, skills that will take you far.  No matter what framework or library you use in the future, you now have a better understanding of how they work and what they are taking care of for you.
 
 ### References
 
@@ -276,8 +280,6 @@ In this video, we will clean up our application a bit by correctly displaying th
 - [Angular vs React vs Vue](https://medium.com/unicorn-supplies/angular-vs-react-vs-vue-a-2017-comparison-c5c52d620176)
 - [Best Javascript Frameworks, Libraries, and Tools to Use in 2017](https://www.sitepoint.com/top-javascript-frameworks-libraries-tools-use/)
 - [Top Javascript Framework Topics to Learn in 2017](https://medium.com/javascript-scene/top-javascript-frameworks-topics-to-learn-in-2017-700a397b711)
-
-In this video, we will reflect on everything that we've covered, which is a lot!  We've taken at least an intermediate dive in HTML, CSS, and Javascript.  We've focused on the core aspects of Web Development, skills that will take you far.  No matter what framework or library you use in the future, you now have a better understanding of how they work and what they are taking care of for you.
 
 ## Bonus Topics??
 If you enjoyed the content, have suggestions/critiques, or would like to see some bonus topics covered, let me know on twitter at @jamesQquick!
