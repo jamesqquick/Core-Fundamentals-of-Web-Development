@@ -269,6 +269,14 @@ In this video, we will clean up our application a bit by correctly displaying th
 
 [Go to the video]()
 
+### References
+
+- [Jquery](https://jquery.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Angular vs React vs Vue](https://medium.com/unicorn-supplies/angular-vs-react-vs-vue-a-2017-comparison-c5c52d620176)
+- [Best Javascript Frameworks, Libraries, and Tools to Use in 2017](https://www.sitepoint.com/top-javascript-frameworks-libraries-tools-use/)
+- [Top Javascript Framework Topics to Learn in 2017](https://medium.com/javascript-scene/top-javascript-frameworks-topics-to-learn-in-2017-700a397b711)
+
 In this video, we will reflect on everything that we've covered, which is a lot!  We've taken at least an intermediate dive in HTML, CSS, and Javascript.  We've focused on the core aspects of Web Development, skills that will take you far.  No matter what framework or library you use in the future, you now have a better understanding of how they work and what they are taking care of for you.
 
 ## Bonus Topics??

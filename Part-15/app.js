@@ -108,7 +108,8 @@ submitButton.addEventListener('click', (event) => {
 	const newLink = {
 		title,
 		url,
-		categories
+		categories,
+		date: new Date()
 	}
 
 	if (editIndex === -1) {
