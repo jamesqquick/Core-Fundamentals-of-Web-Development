@@ -2,7 +2,27 @@
 
 ![](./screenshots/cover.png)
 
-Welcome to Core Fundamentals of Web Development!  In this course, we will use pure HTML, CSS, and Javascript (no libraries or frameworks!!) to create a Link Saver application.  The hope is that by foregoing all of the libraries and frameworks out there, we will increase our core knowledge and understanding of how different aspects of web development will work.  This course is designed for Beginner to Intermediate Web Developers who are looking to learn new concepts or reinforce ones they've already been exposed to.  The content is initially scheduled for 15 videos, but I am hoping to follow up with some bonus material based on your feedback!  If you would like to see any additional topics covered, please comment and let me know.
+> ### Find me on twitter at [@jamesqquick](https://twitter.com/jamesqquick) and use the hashtag #CoreWebDev
+
+## Intro
+
+Welcome to Core Fundamentals of Web Development!  In this course, we will use pure HTML, CSS, and Javascript (no libraries or frameworks!!) to create a Link Saver application.  The hope is that by foregoing all of the libraries and frameworks out there, we will increase our core knowledge and understanding of how different aspects of web development will work.  This course is designed for Beginner to Intermediate Web Developers who are looking to learn new concepts or reinforce ones they've already been exposed to.  The content is initially scheduled for 15 videos, but I am hoping to follow up with some bonus material based on your feedback!  If you would like to see any additional topics covered, let me know on twitter, @jamesqquick
+
+
+## People I Follow/ Additional Resources
+- Brad Traversy/ Traversy Media - free content on [YouTube](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) and paid classes on [Udemy](https://www.udemy.com/user/brad-traversy/)
+- Colt Steele - [Web Developer Bootcamp]() and [Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/) on Udemy
+- WesBos - free and paid courses on [Web Development](http://wesbos.com/courses/)
+
+## Topics We Will Cover
+
+- CSS Variables and Resets
+- CSS Flexbox
+- Core Javascript (working with and manipulating DOM elements, creating event listeners,  and creating and handling form submissions)
+- New features of Javascript as of ES6 (arrow functions, const and let, 'let of' loop, template literals)
+-  Media Queries and Responsive Design
+- CSS Transitions and Animations
+
 
 ![](./screenshots/screen2.png)
 
@@ -12,7 +32,7 @@ In this course, we will progressively build a web application.  With each new vi
 
 ## 1. Getting Familiar With the Tools (Visual Studio Code, Google Chrome, and Chrome Developer Tools)
 
-[Go to the video]()
+[Go to the video](https://youtu.be/i5ajsKSnBHc)
 
 [Go to the Source Code](./Part-1)
 
@@ -34,7 +54,7 @@ In this video, we will talk about the tools we will be using in this course.  I 
 
 ## 2. Creating The App Skeleton
 
-[Go to the video]()
+[Go to the video](https://youtu.be/JNZL1whsSvo)
 
 [Go to the Source Code](./Part-2)
 
@@ -49,7 +69,7 @@ In this video, we will stub out the basic structure of our application.  We will
 
 ## 3. Introduction to Flexbox and Building the Navbar
 
-[Go to the video]()
+[Go to the video](https://youtu.be/rg3ufS4l9d0)
 
 [Go to the Source Code](./Part-3)
 
@@ -67,7 +87,7 @@ In this video, we will get introduced to Flexbox, which provides a more efficien
 
 ## 4. Creating and Styling Forms
 
-[Go to the video]()
+[Go to the video](https://youtu.be/CLJ_hSqmuwY)
 
 [Go to the Source Code](./Part-4)
 
@@ -82,7 +102,7 @@ In this video, we are going to create the form that users will leverage to add n
 
 ## 5. Working with DOM Elements, Event Listeners, ES6 CONST and LET
 
-[Go to the video]()
+[Go to the video](https://youtu.be/oe6JEQHUDfY)
 
 [Go to the Source Code](./Part-5)
 
@@ -102,7 +122,7 @@ In this video, we will add the functionality to accept comma separated input fro
 
 ## 6. Arrow Functions and the This Keyword
 
-[Go to the video]()
+[Go to the video](https://youtu.be/-067nE6O2go)
 
 [Go to the Source Code](./Part-6)
 
@@ -115,7 +135,7 @@ In this video, we will add functionality to the add button of our form.  When th
 
 ## 7. Adding and Removing Classes in Javascript
 
-[Go to the video]()
+[Go to the video](https://youtu.be/_gwDrQRP5bs)
 
 [Go to the Source Code](./Part-7)
 
@@ -140,7 +160,7 @@ In this videos, we will add the functionality to show and hide the add link form
 
 ## 8. Displaying Static Link
 
-[Go to the video]()
+[Go to the video](https://youtu.be/Rm6VbE62hHY)
 
 [Go to the Source Code](./Part-8)
 
@@ -149,7 +169,7 @@ In this video, we will take a break from Javascript and come back to our HTML an
 
 ## 9. Generating Dynamic HTML with Es6 Template Literals 
 
-[Go to the video]()
+[Go to the video](https://youtu.be/QGAVFfLGgbo)
 
 [Go to the Source Code](./Part-9)
 
@@ -162,7 +182,7 @@ In this video, we will use the ES6 'For Of' loop to iterate through the array of
 
 ## 10. Adding Edit and Delete Functionality
 
-[Go to the video]()
+[Go to the video](https://youtu.be/PIqttphHhHk)
 
 [Go to the Source Code](./Part-10)
 
@@ -171,7 +191,7 @@ In this video, we will add the ability to edit and delete links.  We will save c
 
 ## 11. Responsive Design With Flexbox
 
-[Go to the video]()
+[Go to the video](https://youtu.be/Vy7BIzS-340)
 
 [Go to the Source Code](./Part-11)
 
@@ -193,7 +213,7 @@ In this video, we will update our application to make it more responsive and mob
 
 ## 12. Applying Transitions
 
-[Go to the video]()
+[Go to the video](https://youtu.be/aBd5mCdbumI)
 
 [Go to the Source Code](./Part-12)
 
@@ -209,7 +229,7 @@ In this video, we will get introduced to CSS Transitions and apply them to sever
 
 ## 13. Full Screen Popups
 
-[Go to the video]()
+[Go to the video](https://youtu.be/y4h6Ne-jgBc)
 
 [Go to the Source Code](./Part-13)
 
@@ -217,7 +237,7 @@ In this video, we will create a full screen popup for our add link form.  This w
 
 ## 14. Animations
 
-[Go to the video]()
+[Go to the video](https://youtu.be/RAicn0li6wA)
 
 [Go to the Source Code](./Part-14)
 
@@ -229,7 +249,23 @@ In this video, we will get introduced to CSS Animations.  We will create simple 
 
 - [CSS Animation and Transitions Crash Course by Travery Media](https://www.youtube.com/watch?v=zHUpx90NerM)
 
-# 15. Course Wrap Up
+
+## 15. Cleanup
+
+[Go to the video]()
+
+[Go to the Source Code](./Part-15)
+
+In this video, we will clean up our application a bit by correctly displaying the date a link was created, removing unnecessary HTML, and adding a hover effect to our links.  
+
+### References
+
+- [Javascript Dates](https://www.w3schools.com/js/js_dates.asp)
+- [Two Digit Month and Date in Javascript Date](https://stackoverflow.com/questions/6040515/how-do-i-get-month-and-date-of-javascript-in-2-digit-format)
+- [String Slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
+
+
+# Course Wrap Up
 
 [Go to the video]()
 

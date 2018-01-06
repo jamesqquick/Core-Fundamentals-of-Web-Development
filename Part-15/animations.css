@@ -1,0 +1,79 @@
+.box {
+	height: 150px;
+	width: 150px;
+	background-color: rgb(240,52,52);
+	margin: 50px;
+}
+
+
+#slideRight{
+	/* animation-name: slide-right;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-timing-function: ease-in; */
+	animation: slide-right 0.25s 0s normal forwards running ease-out;
+}
+
+@keyframes slide-right {
+	0%{
+		transform: translateX(0px);
+	}
+	25%{
+		transform: translateX(400px);
+	}
+	50% {
+		transform: translateX(100px)
+	}
+	75%{
+		transform: translateX(300px)
+	}
+	100%{
+		transform: translateX(400px);
+		
+	}
+}
+
+#shake {
+	animation: shake 0.2s 0s 2;
+}
+
+@keyframes shake {
+	0%{
+		transform: translateX(0px);
+	}
+	25%{
+		transform: translateX(5px);
+	}
+	50% {
+		transform: translateX(0px)
+	}
+	75%{
+		transform: translateX(-5px)
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+
+#slideDown {
+	animation: slide-down 0.5s forwards;
+}
+
+@keyframes slide-down {
+	0%{
+		transform: translateY(0);
+	}
+	90% {
+		transform: translateY(525px);
+	}
+	95%{
+		transform: translateY(500px);
+	}
+	100%{
+		transform: translateY(510px);
+	}
+}
